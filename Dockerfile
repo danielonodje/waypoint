@@ -11,5 +11,3 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --no-dev --no-interaction
 
 COPY backend /app
-
-RUN poetry run pytest
